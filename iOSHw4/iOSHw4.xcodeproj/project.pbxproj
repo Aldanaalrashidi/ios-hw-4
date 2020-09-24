@@ -18,7 +18,7 @@
 		AE0394EF2515A50D00D4C165 /* speechless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394EA2515A50D00D4C165 /* speechless.mp3 */; };
 		AE0394F02515A50D00D4C165 /* golden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394EB2515A50D00D4C165 /* golden.mp3 */; };
 		AE0394F12515A50D00D4C165 /* shapeofyou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394EC2515A50D00D4C165 /* shapeofyou.mp3 */; };
-		AE0394F22515A50D00D4C165 /* stitches.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394ED2515A50D00D4C165 /* stitches.mp3 */; };
+		AE0394F22515A50D00D4C165 /* shawn4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394ED2515A50D00D4C165 /* shawn4.mp3 */; };
 		AE0394F32515A50D00D4C165 /* headspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE0394EE2515A50D00D4C165 /* headspace.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		AE0394EA2515A50D00D4C165 /* speechless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = speechless.mp3; sourceTree = "<group>"; };
 		AE0394EB2515A50D00D4C165 /* golden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golden.mp3; sourceTree = "<group>"; };
 		AE0394EC2515A50D00D4C165 /* shapeofyou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shapeofyou.mp3; sourceTree = "<group>"; };
-		AE0394ED2515A50D00D4C165 /* stitches.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stitches.mp3; sourceTree = "<group>"; };
+		AE0394ED2515A50D00D4C165 /* shawn4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shawn4.mp3; sourceTree = "<group>"; };
 		AE0394EE2515A50D00D4C165 /* headspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = headspace.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 				AE0394EE2515A50D00D4C165 /* headspace.mp3 */,
 				AE0394EC2515A50D00D4C165 /* shapeofyou.mp3 */,
 				AE0394EA2515A50D00D4C165 /* speechless.mp3 */,
-				AE0394ED2515A50D00D4C165 /* stitches.mp3 */,
+				AE0394ED2515A50D00D4C165 /* shawn4.mp3 */,
 				AE0394EB2515A50D00D4C165 /* golden.mp3 */,
 			);
 			path = music;
@@ -159,7 +159,7 @@
 				AE0394DC25158CD700D4C165 /* Assets.xcassets in Resources */,
 				AE0394DA25158CD600D4C165 /* Main.storyboard in Resources */,
 				AE0394F02515A50D00D4C165 /* golden.mp3 in Resources */,
-				AE0394F22515A50D00D4C165 /* stitches.mp3 in Resources */,
+				AE0394F22515A50D00D4C165 /* shawn4.mp3 in Resources */,
 				AE0394EF2515A50D00D4C165 /* speechless.mp3 in Resources */,
 				AE0394F12515A50D00D4C165 /* shapeofyou.mp3 in Resources */,
 			);

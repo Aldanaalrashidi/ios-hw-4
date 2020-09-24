@@ -7,6 +7,7 @@
 //
 
 import UIKit
+var songList = shawnMendesSong
 var songselected = Song(songTitle: "", songImage: "", songSinger: "", songDetailsImage: "")
 class ViewController: UIViewController {
 
@@ -16,7 +17,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var song4Label: UILabel!
+    @IBOutlet weak var song3Label: UILabel!
+    @IBOutlet weak var song2Label: UILabel!
+    @IBOutlet weak var song1Label: UILabel!
+    
     @IBOutlet weak var button1: UIButton!
     
     @IBOutlet weak var button2: UIButton!
@@ -24,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var button4: UIButton!
     
-    @IBOutlet weak var button5: UIButton!
+   
     
     
     func songImage()
@@ -33,12 +38,15 @@ class ViewController: UIViewController {
         button2.setBackgroundImage(UIImage(named: songList[1].songImage), for: .normal)
         button3.setBackgroundImage(UIImage(named: songList[2].songImage), for: .normal)
         button4.setBackgroundImage(UIImage(named: songList[3].songImage), for: .normal)
-        button5.setBackgroundImage(UIImage(named: songList[4].songImage), for: .normal)
+        song1Label.text = songList[0].songTitle
+        song2Label.text = songList[1].songTitle
+        song3Label.text = songList[2].songTitle
+        song4Label.text = songList[3].songTitle
     }
     
     
     @IBAction func press(_ sender: UIButton) {
-        songselected = songList[sender.tag]
+        songselected = shawnMendesSong[sender.tag]
         performSegue(withIdentifier: "gosong", sender: nil)
     }
 }
